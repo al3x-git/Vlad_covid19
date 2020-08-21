@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    text-align: center;
+    background-color: lightskyblue;
+}
+body{
+    background-color: khaki;
+}
+p{
+    padding: 2%;
+}
+ul{
+    padding: 4%;
+}

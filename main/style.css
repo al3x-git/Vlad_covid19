@@ -1,0 +1,126 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.menu li {
+  display: inline;
+  padding-right: 2%;
+}
+
+ul{
+   float: right;
+   width: 250px;
+}
+h1 {
+  text-align: center;
+  margin-right: 12%;
+}
+.logo {
+  width: 12%;
+  height: 15%;
+  margin-left: 3%;
+  margin-top: 1%;
+  float: left;
+}
+#header{
+    background-color: lightskyblue;
+}
+.motto_img {
+  width: 10%;
+  height: 10%;
+  margin-left: 15%;
+  margin-top: 2%;
+  float: left;
+}
+.motto {
+  text-align: center;
+}
+.p1 {
+  width: 45%;
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 2%;
+  margin-top: 2%;
+  
+}
+
+.right-side {
+  width: 15%;
+  float: right;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 0 20px 50px;
+}
+
+.right-side ul, li {
+  width: 100%;
+}
+
+table {
+  position: relative;
+  border: 1px solid;
+  border-collapse: collapse;
+  margin-left: 25%;
+  margin-top: 30%;
+  background-color: lightskyblue;
+  width: 50%;
+}
+
+footer {
+  text-align: center;
+}
+th,td{
+    width:200px;
+    border: 1px solid;
+  border-collapse: collapse;
+}
+#wrapper{
+    background-color:khaki;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  color: green;
+}
+.container{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border: 1px solid;
+  width: 15%;
+  padding: 5px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: lightskyblue;
+  margin-left: 1%;
+}
+@media screen and (max-width: 400px){
+  .menu li{
+    display: block;
+    margin-left: 55%;
+  }
+  h1{
+  margin-top: 10%;
+  margin-right: 18%;
+  }
+  .motto_img{
+    width: 35%;
+    margin-left: 35%;
+  }
+  .p1{
+    float: none;
+    width: 72%;
+    margin-top: 40%;
+  }
+  .container{
+    width: 25%;
+  }
+  .right-side{
+    display: none;
+  }
+  table{
+    margin-left: 3%;
+  }
+  .logo{
+    width: 20%;
+  }
+}
